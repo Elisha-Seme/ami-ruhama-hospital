@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-white text-slate-700 antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Consistent, visible focus styling for keyboard users */
+  :focus-visible {
+    outline-color: theme("colors.brand.600");
+  }
+
+  ::selection {
+    background-color: theme("colors.brand.100");
+    color: theme("colors.brand.900");
+  }
+}
+
+@layer components {
+  /* Skip-link shown only when focused */
+  .skip-link {
+    @apply sr-only;
+  }
+  .skip-link:focus {
+    @apply not-sr-only fixed left-4 top-4 z-[100] rounded-lg bg-brand-800 px-4 py-2 text-sm font-semibold text-white shadow-lift;
+  }
+
+  .prose-care p {
+    @apply leading-relaxed text-slate-600;
+  }
+}
