@@ -105,7 +105,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm text-brand-200/80">
               <li>{site.level}</li>
               <li>MFL Code: {site.contact.mflCode}</li>
-              <li>NHIF accredited ({site.contact.nhifCode})</li>
+              <li>SHIF/SHA accredited ({site.contact.nhifCode})</li>
               <li>Affiliated with {site.affiliation}</li>
             </ul>
           </div>

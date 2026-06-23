@@ -157,7 +157,7 @@ export const site = {
   ],
 
   // Insurance & payment schemes accepted (from the profile)
-  insurance: ["NHIF", "MAKL (TSC / NPS / KPs)"],
+  insurance: ["SHIF / SHA", "MAKL (TSC / NPS / KPs)"],
 
   // Transparent, real fees from the official profile (Kenyan Shillings).
   fees: [
@@ -211,7 +211,7 @@ export const site = {
       role: "Community outreach & free medical camps",
     },
     {
-      name: "NHIF",
+      name: "SHIF / SHA",
       role: "Accredited insurance provider",
     },
   ],

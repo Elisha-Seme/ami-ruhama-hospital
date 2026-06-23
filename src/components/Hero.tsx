@@ -69,7 +69,7 @@ export default function Hero() {
             </li>
             <li className="inline-flex items-center gap-2">
               <ShieldIcon className="h-4 w-4 text-brand-600" />
-              NHIF accredited
+              SHIF / SHA accredited
             </li>
             <li className="inline-flex items-center gap-2">
               <CheckIcon className="h-4 w-4 text-brand-600" />

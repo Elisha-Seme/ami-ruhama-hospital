@@ -23,7 +23,7 @@ const facts = [
   "Located at Soysambu Market, Tongaren Sub-County",
   "Serving a catchment community of over 80,000 people",
   "Open 24 hours a day, 7 days a week",
-  "NHIF accredited (Code 444015451)",
+  "SHIF/SHA accredited (Code 444015451)",
 ];
 
 export default function AboutPage() {

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "Soysambu hospital",
     "Level 4 hospital",
     "maternity Bungoma",
-    "NHIF hospital",
+    "SHA hospital",
   ],
   authors: [{ name: site.name }],
   openGraph: {

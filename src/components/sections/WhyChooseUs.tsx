@@ -12,7 +12,7 @@ const reasons = [
   },
   {
     title: "Affordable & transparent",
-    body: "Clear, fair pricing and NHIF accreditation, so quality care never depends on what you can afford.",
+    body: "Clear, fair pricing and SHIF/SHA accreditation, so quality care never depends on what you can afford.",
   },
   {
     title: "Comprehensive under one roof",
