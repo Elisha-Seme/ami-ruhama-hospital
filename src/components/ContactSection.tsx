@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, type FormEvent } from "react";
 import Container from "./Container";
@@ -114,7 +114,7 @@ export default function ContactSection() {
             {/* Google Maps embed */}
             <div className="relative overflow-hidden rounded-3xl border border-brand-100 shadow-soft">
               <iframe
-                title="AMI Ruhama Mission Hospital location"
+                title="AMI Ruhama Church Waraba Mission Hospital location"
                 src="https://maps.google.com/maps?q=Soysambu+Market+Tongaren+Bungoma+Kenya&output=embed"
                 width="100%"
                 height="280"
@@ -253,3 +253,4 @@ function Field({
     </div>
   );
 }
+

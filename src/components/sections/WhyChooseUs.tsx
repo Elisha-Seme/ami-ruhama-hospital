@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Container from "../Container";
 import SectionHeading from "../SectionHeading";
 import Reveal from "../Reveal";
@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 const reasons = [
   {
     title: "Always open",
-    body: "Round-the-clock outpatient, inpatient and emergency care — 24 hours a day, every day of the year.",
+    body: "Round-the-clock outpatient, inpatient and emergency care â€” 24 hours a day, every day of the year.",
   },
   {
     title: "Affordable & transparent",
@@ -16,7 +16,7 @@ const reasons = [
   },
   {
     title: "Comprehensive under one roof",
-    body: "Consultation, lab, pharmacy, maternity and imaging in a single visit — less travel, faster answers.",
+    body: "Consultation, lab, pharmacy, maternity and imaging in a single visit â€” less travel, faster answers.",
   },
   {
     title: "Compassionate, qualified team",
@@ -35,7 +35,7 @@ export default function WhyChooseUs() {
               <div className="overflow-hidden rounded-4xl border border-brand-50 shadow-lift">
                 <Image
                   src="/images/laboratory.jpg"
-                  alt="The on-site diagnostic laboratory at AMI Ruhama Mission Hospital"
+                  alt="The on-site diagnostic laboratory at AMI Ruhama Church Waraba Mission Hospital"
                   width={275}
                   height={183}
                   sizes="(max-width: 1024px) 90vw, 520px"
@@ -92,3 +92,4 @@ export default function WhyChooseUs() {
     </section>
   );
 }
+

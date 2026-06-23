@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
@@ -17,7 +17,7 @@ import {
 export const metadata: Metadata = {
   title: "Support Our Mission",
   description:
-    "Partner with or support AMI Ruhama Mission Hospital. Your giving funds free medical camps, keeps care affordable, and strengthens healthcare for the Tongaren community.",
+    "Partner with or support AMI Ruhama Church Waraba Mission Hospital. Your giving funds free medical camps, keeps care affordable, and strengthens healthcare for the Tongaren community.",
 };
 
 const ways = [
@@ -39,7 +39,7 @@ const ways = [
   {
     icon: <PulseIcon className="h-6 w-6" />,
     title: "Give equipment or supplies",
-    body: "In-kind support — medical equipment, consumables or pharmacy stock — directly strengthens patient care.",
+    body: "In-kind support â€” medical equipment, consumables or pharmacy stock â€” directly strengthens patient care.",
   },
 ];
 
@@ -49,7 +49,7 @@ export default function DonatePage() {
       <PageHeader
         eyebrow="Support our mission"
         title="Your support brings care to more families"
-        description="As a faith-based hospital, we keep care affordable so no one is turned away. Your generosity makes that possible — and extends our reach across the community."
+        description="As a faith-based hospital, we keep care affordable so no one is turned away. Your generosity makes that possible â€” and extends our reach across the community."
       >
         <Button href="/contact" variant="gold" size="lg">
           Talk to our team
@@ -110,7 +110,7 @@ export default function DonatePage() {
                     M-Pesa / Bank details
                   </p>
                   <p className="mt-1 text-sm text-slate-500">
-                    Coming soon — contact us for current giving details.
+                    Coming soon â€” contact us for current giving details.
                   </p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function DonatePage() {
                   </span>
                 </a>
                 <a
-                  href={`mailto:${site.contact.email}?subject=Supporting AMI Ruhama Mission Hospital`}
+                  href={`mailto:${site.contact.email}?subject=Supporting AMI Ruhama Church Waraba Mission Hospital`}
                   className="flex items-center gap-3 rounded-xl border border-brand-50 p-3 transition hover:border-brand-200 hover:bg-brand-50/40"
                 >
                   <span className="grid h-9 w-9 place-items-center rounded-lg bg-brand-50 text-brand-700">
@@ -174,3 +174,4 @@ export default function DonatePage() {
     </>
   );
 }
+

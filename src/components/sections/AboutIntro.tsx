@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Container from "../Container";
 import SectionHeading from "../SectionHeading";
 import Button from "../Button";
@@ -17,7 +17,7 @@ export default function AboutIntro() {
               <div className="overflow-hidden rounded-4xl border border-brand-50 shadow-lift">
                 <Image
                   src="/images/clinician.jpg"
-                  alt="A clinician at AMI Ruhama Mission Hospital reviewing patient care"
+                  alt="A clinician at AMI Ruhama Church Waraba Mission Hospital reviewing patient care"
                   width={750}
                   height={1000}
                   sizes="(max-width: 1024px) 80vw, 460px"
@@ -73,3 +73,4 @@ export default function AboutIntro() {
     </section>
   );
 }
+

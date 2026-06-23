@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
@@ -12,7 +12,7 @@ import { CheckIcon } from "@/components/icons";
 export const metadata: Metadata = {
   title: "Our Services",
   description:
-    "Outpatient, inpatient, maternity, laboratory, pharmacy, radiology and community outreach — comprehensive healthcare services at AMI Ruhama Mission Hospital in Tongaren.",
+    "Outpatient, inpatient, maternity, laboratory, pharmacy, radiology and community outreach â€” comprehensive healthcare services at AMI Ruhama Church Waraba Mission Hospital in Tongaren.",
 };
 
 export default function ServicesPage() {
@@ -126,10 +126,11 @@ export default function ServicesPage() {
       <CTASection
         eyebrow="Need care today?"
         title="Our team is ready to help"
-        description="Walk in any time — we're open 24/7 — or reach out with a question about any of our services."
+        description="Walk in any time â€” we're open 24/7 â€” or reach out with a question about any of our services."
         primary={{ label: "Contact Us", href: "/contact" }}
         secondary={{ label: "Support Our Mission", href: "/donate", variant: "light" }}
       />
     </>
   );
 }
+

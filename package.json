@@ -2,7 +2,7 @@
   "name": "ami-ruhama-hospital",
   "version": "1.0.0",
   "private": true,
-  "description": "Official website for AMI Ruhama Mission Hospital, a faith-based Level 4 hospital in Tongaren, Bungoma County, Kenya.",
+  "description": "Official website for AMI Ruhama Church Waraba Mission Hospital, a faith-based Level 4 hospital in Tongaren, Bungoma County, Kenya.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

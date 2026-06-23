@@ -1,5 +1,5 @@
-/**
- * Logo — a crisp SVG recreation of the AMI Ruhama mark:
+﻿/**
+ * Logo â€” a crisp SVG recreation of the AMI Ruhama mark:
  * a red disc with a white medical cross, underscored by a blue swoosh
  * (trust) and a gold arc (mission warmth). Scales sharply at any size.
  */
@@ -19,7 +19,7 @@ export function LogoMark({ size = 40, className }: { size?: number; className?: 
       height={size}
       viewBox="0 0 64 64"
       role="img"
-      aria-label="AMI Ruhama Mission Hospital logo"
+      aria-label="AMI Ruhama Church Waraba Mission Hospital logo"
       className={className}
     >
       {/* Red disc */}
@@ -68,3 +68,4 @@ export default function Logo({ size = 40, className = "", showWordmark = true, l
     </span>
   );
 }
+

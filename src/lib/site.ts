@@ -1,5 +1,5 @@
-/**
- * Central content source for AMI Ruhama Mission Hospital.
+﻿/**
+ * Central content source for AMI Ruhama Church Waraba Mission Hospital.
  *
  * Everything the marketing site renders lives here so non-developers can
  * update copy, services, fees and contact details in one place.
@@ -10,9 +10,9 @@
  */
 
 export const site = {
-  name: "AMI Ruhama Mission Hospital",
+  name: "AMI Ruhama Church Waraba Mission Hospital",
   shortName: "AMI Ruhama",
-  // Historical name — kept only for context/SEO, never shown prominently.
+  // Historical name â€” kept only for context/SEO, never shown prominently.
   formerName: "AMI Ruhama Church Waraba Medical Centre Ltd",
   motto: "My Health, My Life",
   tagline: "Quality is our priority",
@@ -21,7 +21,7 @@ export const site = {
   url: "https://www.amiruhamamissionhospital.org", // TODO: confirm final domain (old deck listed amiruhamawarabamedicalcentre.com)
 
   description:
-    "AMI Ruhama Mission Hospital is a faith-based Level 4 hospital in Tongaren, Bungoma County, providing high-quality and affordable healthcare to the communities of Soysambu and beyond. Open 24 hours a day.",
+    "AMI Ruhama Church Waraba Mission Hospital is a faith-based Level 4 hospital in Tongaren, Bungoma County, providing high-quality and affordable healthcare to the communities of Soysambu and beyond. Open 24 hours a day.",
 
   // Short, human summary used in hero / about intros.
   intro:
@@ -33,11 +33,11 @@ export const site = {
     email: "warabamedicalcentre@gmail.com", // TODO: confirm updated email under the new "Mission Hospital" brand
     addressLine: "Soysambu Market, Tongaren Sub-County",
     region: "Bungoma County, Kenya",
-    hours: "Open 24 hours · 7 days a week",
+    hours: "Open 24 hours Â· 7 days a week",
     // Registration / accreditation codes from the official profile
     mflCode: "20791",
     nhifCode: "444015451",
-    kmpdcRegNo: "017299", // TODO: confirm — label/value alignment was ambiguous in the source deck
+    kmpdcRegNo: "017299", // TODO: confirm â€” label/value alignment was ambiguous in the source deck
   },
 
   social: {
@@ -67,7 +67,7 @@ export const site = {
     {
       key: "respect",
       title: "Respect & Dignity",
-      body: "We honour the dignity, individuality and rights of every person — protecting each patient's privacy, confidentiality and right to information.",
+      body: "We honour the dignity, individuality and rights of every person â€” protecting each patient's privacy, confidentiality and right to information.",
     },
     {
       key: "cooperation",
@@ -81,7 +81,7 @@ export const site = {
     },
   ],
 
-  // Headline figures — all drawn directly from the official profile.
+  // Headline figures â€” all drawn directly from the official profile.
   stats: [
     { value: "80,000+", label: "People in our catchment community" },
     { value: "Level 4", label: "Accredited hospital facility" },
@@ -95,7 +95,7 @@ export const site = {
       key: "outpatient",
       title: "Outpatient Services",
       summary:
-        "Consultations, diagnosis and treatment for everyday illnesses and ongoing care — no appointment needed.",
+        "Consultations, diagnosis and treatment for everyday illnesses and ongoing care â€” no appointment needed.",
       icon: "stethoscope",
     },
     {
@@ -123,7 +123,7 @@ export const site = {
       key: "laboratory",
       title: "Laboratory Services",
       summary:
-        "An on-site lab offering 28+ diagnostic tests — from full haemograms to liver, kidney and hormonal profiles.",
+        "An on-site lab offering 28+ diagnostic tests â€” from full haemograms to liver, kidney and hormonal profiles.",
       icon: "flask",
     },
     {
@@ -180,14 +180,14 @@ export const site = {
     { item: "Pregnancy Test", price: "KSh 150" },
   ],
 
-  // Leadership — names/titles from the official profile.
+  // Leadership â€” names/titles from the official profile.
   // NOTE: the deck listed the Administrator as both "Calistus Simiyu" and
   // "Calistus Wekesa". Showing one with a TODO until confirmed.
   leadership: [
     {
       name: "Calistus Simiyu",
       role: "Hospital Administrator",
-      note: "TODO: confirm name — deck also lists 'Calistus Wekesa'",
+      note: "TODO: confirm name â€” deck also lists 'Calistus Wekesa'",
     },
     {
       name: "Dr. Godfrey Obala",
@@ -227,3 +227,4 @@ export const navLinks = [
   { href: "/impact", label: "Community Impact" },
   { href: "/contact", label: "Contact" },
 ] as const;
+

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
@@ -13,7 +13,7 @@ import { PeopleIcon } from "@/components/icons";
 export const metadata: Metadata = {
   title: "Community Impact",
   description:
-    "Free medical camps, preventive health, and maternal & child care — see how AMI Ruhama Mission Hospital serves the Tongaren community beyond its walls.",
+    "Free medical camps, preventive health, and maternal & child care â€” see how AMI Ruhama Church Waraba Mission Hospital serves the Tongaren community beyond its walls.",
 };
 
 export default function ImpactPage() {
@@ -60,7 +60,7 @@ export default function ImpactPage() {
                   </p>
                   <hr className="my-5 border-white/15" />
                   <p className="text-sm leading-relaxed text-brand-100/85">
-                    {/* TODO: replace with confirmed outreach figures — e.g. camps held, patients screened — once available */}
+                    {/* TODO: replace with confirmed outreach figures â€” e.g. camps held, patients screened â€” once available */}
                     Outreach reach and patient numbers will be published here as
                     they are confirmed.
                   </p>
@@ -97,3 +97,4 @@ export default function ImpactPage() {
     </>
   );
 }
+

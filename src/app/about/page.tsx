@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import PageHeader from "@/components/PageHeader";
 import Container from "@/components/Container";
@@ -14,7 +14,7 @@ import { CheckIcon } from "@/components/icons";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about AMI Ruhama Mission Hospital, a faith-based Level 4 hospital serving Tongaren and Bungoma County with quality healthcare.",
+    "Learn about AMI Ruhama Church Waraba Mission Hospital, a faith-based Level 4 hospital serving Tongaren and Bungoma County with quality healthcare.",
 };
 
 const facts = [
@@ -32,7 +32,7 @@ export default function AboutPage() {
       <PageHeader
         eyebrow="About AMI Ruhama"
         title="Healing the community, in faith and excellence"
-        description={`${site.name} brings dignified, high-quality healthcare to the families of Tongaren — guided by faith and a commitment to every person we serve.`}
+        description={`${site.name} brings dignified, high-quality healthcare to the families of Tongaren â€” guided by faith and a commitment to every person we serve.`}
       />
 
       {/* Story */}
@@ -44,7 +44,7 @@ export default function AboutPage() {
                 <div className="overflow-hidden rounded-4xl border border-brand-50 shadow-lift">
                   <Image
                     src="/images/clinician.jpg"
-                    alt="A clinician providing care at AMI Ruhama Mission Hospital"
+                    alt="A clinician providing care at AMI Ruhama Church Waraba Mission Hospital"
                     width={750}
                     height={1000}
                     sizes="(max-width: 1024px) 80vw, 460px"
@@ -106,3 +106,4 @@ export default function AboutPage() {
     </>
   );
 }
+

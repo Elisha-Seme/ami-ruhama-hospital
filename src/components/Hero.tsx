@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Container from "./Container";
 import Button from "./Button";
 import { LogoMark } from "./Logo";
@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="animate-fade-up">
           <span className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white/70 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-brand-700 shadow-soft">
             <span className="h-2 w-2 rounded-full bg-care-500" />
-            Faith-based · {site.level}
+            Faith-based Â· {site.level}
           </span>
 
           <h1 className="mt-5 font-display text-4xl font-bold leading-[1.08] tracking-tight text-brand-950 sm:text-5xl lg:text-[3.4rem]">
@@ -85,7 +85,7 @@ export default function Hero() {
             <div className="relative overflow-hidden rounded-4xl border border-white/60 shadow-lift">
               <Image
                 src="/images/waiting-bay.jpg"
-                alt="The bright, welcoming patient waiting area at AMI Ruhama Mission Hospital"
+                alt="The bright, welcoming patient waiting area at AMI Ruhama Church Waraba Mission Hospital"
                 width={519}
                 height={692}
                 priority
@@ -125,3 +125,4 @@ export default function Hero() {
     </section>
   );
 }
+

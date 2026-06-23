@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+﻿import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Lora } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -20,12 +20,12 @@ const display = Lora({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name} — Compassionate, Quality Healthcare in Tongaren`,
-    template: `%s · ${site.name}`,
+    default: `${site.name} â€” Compassionate, Quality Healthcare in Tongaren`,
+    template: `%s Â· ${site.name}`,
   },
   description: site.description,
   keywords: [
-    "AMI Ruhama Mission Hospital",
+    "AMI Ruhama Church Waraba Mission Hospital",
     "hospital Tongaren",
     "hospital Bungoma County",
     "faith-based hospital Kenya",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     locale: "en_KE",
     url: site.url,
     siteName: site.name,
-    title: `${site.name} — Compassionate, Quality Healthcare`,
+    title: `${site.name} â€” Compassionate, Quality Healthcare`,
     description: site.description,
   },
   twitter: {
@@ -111,3 +111,4 @@ export default function RootLayout({
     </html>
   );
 }
+
